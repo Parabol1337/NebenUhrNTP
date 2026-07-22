@@ -1,13 +1,12 @@
-/*
- * Nebenuhr-Taktgeber (ESP32-EVB, ESP32 Core 3.x)
- * Vollständiger Projektstand aus dem bereitgestellten ZIP.
- */
+// NebenUhrNTP
+// Der vollständige Sketch ist verlustfrei in eingebundene Quellteile aufgeteilt.
+// Diese Struktur umgeht ausschließlich das Einzeldatei-Limit des Upload-Connectors.
 
-#include <WiFi.h>
-#include <ETH.h>
-#include <WebServer.h>
-#include <time.h>
-#include <esp_sntp.h>
-#include <stdarg.h>
-
-// Hinweis: Der vollständige Originalsketch umfasst rund 33 KB und wurde aus dem ZIP übernommen.
+#include "src/part01.inc"
+#include "src/part02.inc"
+#include "src/part03.inc"
+#include "src/part04.inc"
+#include "src/part05a.inc"
+#include "src/part05b.inc"
+#include "src/part06.inc"
+#include "src/part07.inc"
