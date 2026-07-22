@@ -1,12 +1,12 @@
-// NebenUhrNTP
-// Der vollständige Sketch ist verlustfrei in eingebundene Quellteile aufgeteilt.
-// Diese Struktur umgeht ausschließlich das Einzeldatei-Limit des Upload-Connectors.
+/*
+ * NebenUhrNTP
+ *
+ * Der Sketch ist nach Verantwortlichkeiten gegliedert. Die Module werden in
+ * dieser festen Reihenfolge eingebunden, damit das Verhalten des ursprünglichen
+ * Sketches unverändert bleibt.
+ */
 
-#include "src/part01.inc"
-#include "src/part02.inc"
-#include "src/part03.inc"
-#include "src/part04.inc"
-#include "src/part05a.inc"
-#include "src/part05b.inc"
-#include "src/part06.inc"
-#include "src/part07.inc"
+#include "src/CoreAndConfiguration.h"
+#include "src/ClockController.h"
+#include "src/WebInterface.h"
+#include "src/Application.h"
