@@ -1,0 +1,23 @@
+# Arduino / ESP32 build artifacts
+*.bin
+*.elf
+*.hex
+*.map
+*.eep
+*.o
+*.a
+*.d
+
+# Arduino build and cache directories
+build/
+.build/
+arduino_build_*/
+arduino_cache_*/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
